@@ -1,0 +1,390 @@
+/**  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fafafa;
+}
+div.box-shadow img{
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px #000;
+}
+.img {
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    
+}
+
+
+div.drop-shadow img {
+    filter: drop-shadow(10px 10px 20px green )   ;
+    
+} */
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.titulo {
+    text-align: center;
+    color: rgb(255, 0, 0) ;
+    margin: 0px 0px 10px 0px;
+    
+
+}
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.8;
+  }
+img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    transition:0.5s;
+    
+}
+
+.primero img:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.primero{
+    display: inline-block;
+    border: solid black 2px;
+    width: 300px;
+    height: 300px;    
+    background: linear-gradient(rgb(255, 146, 146),rgb(255, 224, 165),rgb(255, 255, 165));
+    text-align: center ;    }
+
+.primero:hover, p:hover
+{
+    color: white;
+    transform: 5,5,5;
+    background: rgba(108, 86, 112, 0.301);
+    transition: 0.5s;
+    
+}
+body {
+    cursor: pointer;   
+    transition: 0.5s; 
+
+}
+
+h2 { 
+    font-size: 20px;
+}
+p {
+    display: block;
+    font-size: 11px;
+    margin: 10px;
+}
+.negrilla {
+    font-weight: bold;
+    font-size: 20;
+}
+body .cajamadre{
+    text-align: center;
+}
+.cajamadre .primero:hover .uno{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(107, 0, 128) )   ;
+
+
+}
+.cajamadre .primero:hover .dos{  
+    transform: scale3d(1.3, 1.3, 1.3);
+        filter: drop-shadow(10px 10px 20px rgb(255, 0, 200) )   ;
+    
+
+}.cajamadre .primero:hover .tres{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 197, 6) )   ;
+
+
+}.cajamadre .primero:hover .cuatro{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 137, 2) )   ;
+
+
+}.cajamadre .primero:hover .cinco{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(202, 28, 255) )   ;
+
+
+}.cajamadre .primero:hover .seis{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(212, 0, 255) )   ;
+
+
+}.cajamadre .primero:hover .siete{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 0, 0) )   ;
+
+
+}.cajamadre .primero:hover .ocho{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(67, 29, 156) )   ;
+
+
+}.cajamadre .primero:hover .nueve{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 136, 0) )   ;
+
+
+}.cajamadre .primero:hover .diez{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(68, 196, 255) )   ;
+
+
+}.cajamadre .primero:hover .once{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(231, 255, 97) )   ;
+
+
+}.cajamadre .primero:hover .doce{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 22, 205) )   ;
+
+
+}.cajamadre .primero:hover .trece{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(0, 225, 255) )   ;
+
+
+}.cajamadre .primero:hover .catorce{  
+    filter: drop-shadow(10px 10px 20px rgb(128, 0, 0) )   ;
+    transform: scale3d(1.3, 1.3, 1.3);
+
+
+}.cajamadre .primero:hover .quince{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 101, 229) )   ;
+
+
+}.cajamadre .primero:hover .diesciseis{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(227, 102, 238) )   ;
+
+
+}.cajamadre .primero:hover .diescisiete{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(57, 192, 255) )   ;
+
+
+}.cajamadre .primero:hover .diesciocho{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 126, 216) )   ;
+
+
+}.cajamadre .primero:hover .diescinueve{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(195, 131, 255) )   ;
+
+
+}.cajamadre .primero:hover .veinte{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(51, 167, 161) )   ;
+
+
+}.cajamadre .primero:hover .veintiuno{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(230, 192, 27) )   ;
+
+
+}.cajamadre .primero:hover .veintidos{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(17, 39, 17) )   ;
+
+
+}.cajamadre .primero:hover .veintitres{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(245, 160, 33) )   ;
+
+
+}.cajamadre .primero:hover .veinticuatro{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(151, 248, 71) )   ;
+
+
+}.cajamadre .primero:hover .veinticinco{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(248, 232, 4) )   ;
+
+
+}.cajamadre .primero:hover .veintiseis{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px green )   ;
+
+
+}.cajamadre .primero:hover .veintisiete{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(0, 119, 128) )   ;
+
+
+}.cajamadre .primero:hover .veintiocho{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(136, 255, 225) )   ;
+
+
+}.cajamadre .primero:hover .veintinueve{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(255, 111, 231) )   ;
+
+
+}.cajamadre .primero:hover .treinta{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(240, 222, 142) )   ;
+
+
+}.cajamadre .primero:hover .treintauno{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(128, 0, 0) )   ;
+
+
+}.cajamadre .primero:hover .treintados{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(172, 66, 66) )   ;
+
+
+}.cajamadre .primero:hover .treintatres{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(204, 117, 46) )   ;
+
+
+}.cajamadre .primero:hover .treintacuatro{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(23, 0, 128) )   ;
+
+
+}.cajamadre .primero:hover .treintacinco{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(96, 78, 197) )   ;
+
+
+}.cajamadre .primero:hover .treintaseis{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(172, 60, 60) )   ;
+
+
+}.cajamadre .primero:hover .treintasiete{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(26, 8, 105) )   ;
+
+
+}.cajamadre .primero:hover .treintaocho{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(65, 17, 97) )   ;
+
+
+}.cajamadre .primero:hover .treintanueve{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(94, 57, 3) )   ;
+
+
+}.cajamadre .primero:hover .cuarenta{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(189, 157, 18) )   ;
+
+
+}.cajamadre .primero:hover .cuarentauno{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(194, 53, 230) )   ;
+
+
+}.cajamadre .primero:hover .cuarentados{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(216, 193, 90) )   ;
+
+
+}.cajamadre .primero:hover .cuarentatres{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(211, 112, 72) )   ;
+
+
+}.cajamadre .primero:hover .cuarentacuatro{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(46, 10, 131) )   ;
+
+
+}.cajamadre .primero:hover .cuarentacinco{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(37, 14, 92) )   ;
+
+
+}.cajamadre .primero:hover .cuarentaseis{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(139, 15, 102) )   ;
+
+
+}.cajamadre .primero:hover .cuarentasiete{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(56, 178, 226) )   ;
+
+
+}.cajamadre .primero:hover .cuarentaocho{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(166, 252, 255) )   ;
+
+
+}.cajamadre .primero:hover .cuarentanueve{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(148, 14, 130) )   ;
+
+
+}.cajamadre .primero:hover .cincuenta{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(14, 116, 36) )   ;
+
+
+}.cajamadre .primero:hover .cincuentauno{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(218, 157, 26) )   ;
+
+
+}.cajamadre .primero:hover .cincuentados{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(20, 14, 73) )   ;
+
+
+}.cajamadre .primero:hover .cincuentatres{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(115, 16, 155) )   ;
+
+
+}.cajamadre .primero:hover .cincuentacuatro{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(19, 152, 156) )   ;
+
+
+}.cajamadre .primero:hover .cincuentacinco{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(190, 56, 173) )   ;
+
+
+}.cajamadre .primero:hover .cincuentaseis{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(15, 102, 15) )   ;
+
+
+}.cajamadre .primero:hover .cincuentasiete{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(192, 44, 101) )   ;
+
+
+}.cajamadre .primero:hover .cincuentaocho{  
+    transform: scale3d(1.3, 1.3, 1.3);
+    filter: drop-shadow(10px 10px 20px rgb(0, 128, 0) )   ;
+
+
+}
